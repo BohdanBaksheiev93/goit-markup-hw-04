@@ -230,6 +230,13 @@ nav {
   width: calc((100% - 72px) / 4);
 }
 
+.feature_icon {
+  display: flex;
+  justify-content: center;
+  background-color: var(--light);
+  border-radius: 5px;
+}
+
 .feature_title {
   margin-bottom: 8px;
   font-weight: 500;
@@ -314,6 +321,7 @@ nav {
 }
 
 .team_par {
+  margin-bottom: 8px;
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
