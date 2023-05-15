@@ -433,7 +433,8 @@ nav {
 
 }
 
-.customers_list_link:hover .customers_list_icon {
+.customers_list_link:hover .customers_list_icon,
+.customers_list_link:focus .customers_list_icon {
   fill: var(--pressed-state);
 }
 
