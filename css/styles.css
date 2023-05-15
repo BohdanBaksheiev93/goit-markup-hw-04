@@ -108,6 +108,18 @@ nav {
   display: inline-block;
 }
 
+.menu_link:hover::after {
+  display: block;
+  margin-top: 20px;
+  content: "";
+  width: 48px;
+  height: 4px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 2px;
+  background-color: var(--pressed-state);
+}
+
 .menu_link {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -430,7 +442,7 @@ nav {
 }
 
 .customers_list_icon {
-
+  fill: var(--light-slate);
 }
 
 .customers_list_link:hover .customers_list_icon,
