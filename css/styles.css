@@ -233,6 +233,8 @@ nav {
 .feature_icon {
   display: flex;
   justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
   background-color: var(--light);
   border-radius: 5px;
 }
