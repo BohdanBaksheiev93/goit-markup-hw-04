@@ -10,6 +10,7 @@ body {
   --pressed-state: #404bbf;
   --brand-color: #2e2f42;
   --body-text: #434455;
+  --light-slate: #8e8f99;
   --light: #f4f4fd;
   --white-background: #ffffff;
   --modal-background: #e7e9fc;
@@ -235,6 +236,7 @@ nav {
   justify-content: center;
   padding-top: 24px;
   padding-bottom: 24px;
+  margin-bottom: 8px;
   background-color: var(--light);
   border-radius: 5px;
 }
@@ -349,6 +351,40 @@ nav {
   height: 40px;
   border-radius: 50%;
   background-color: var(--primary-brand);
+}
+
+.customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.customers_title {
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--brand-color);
+}
+
+.customers_list {
+  display: flex;
+  gap: 24px;
+}
+
+.customers_list_item {
+  padding: 16px 32px;
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+}
+
+.customers_list_link {
+
+}
+
+.customers_list_icon {
+
 }
 
 /*--Portfolio--*/
