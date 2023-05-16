@@ -457,10 +457,10 @@ nav {
 .customers_list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 120px) / 6);
 }
 
 .customers_list_item {
+  width: calc((100% - 120px) / 6);
   height: 88px;
 }
 
@@ -477,17 +477,21 @@ nav {
   color: #8e8f99;
 }
 
-.customers_list_icon {
-  width: 104px;
-  height: 56px;
-  fill: currentColor;
+.customers_list_link:hover,
+.customers_list_link:focus {
+  border-color: #404bbf;
+  color: #404bbf;  
 }
 
 .customers_list_link:hover .customers_list_icon,
 .customers_list_link:focus .customers_list_icon {
   fill: var(--pressed-state);
-  border-color: #404bbf;
-  color: #404bbf;
+}
+
+.customers_list_icon {
+  width: 104px;
+  height: 56px;
+  fill: currentColor;
 }
 
 /*--Portfolio--*/
