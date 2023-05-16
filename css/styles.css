@@ -168,6 +168,10 @@ nav {
   align-items: baseline;
 }
 
+.footer_left_side {
+  margin-right: 120px;
+}
+
 .footer_link {
   display: inline-block;
   padding: 0;
@@ -181,7 +185,6 @@ nav {
 
 .footer_left_side_par {
   width: 264px;
-  margin-right: 120px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light);
@@ -305,11 +308,11 @@ nav {
   background-color: var(--light);
   border-radius: 4px;
 }
-
+/*
 .feature_icon_item {
   width: 64px;
   height: 64px;
-}
+}*/
 
 .feature_title {
   margin-bottom: 8px;
@@ -553,7 +556,15 @@ nav {
 }
 
 .row_link {
+  display: block;
   color: var(--body-text);
+}
+
+.row_link:hover,
+.row_link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .row_info {
