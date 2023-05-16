@@ -308,11 +308,10 @@ nav {
   background-color: var(--light);
   border-radius: 4px;
 }
-/*
+
 .feature_icon_item {
-  width: 64px;
-  height: 64px;
-}*/
+
+}
 
 .feature_title {
   margin-bottom: 8px;
@@ -434,8 +433,6 @@ nav {
 }
 
 .social_list_icon {
-  width: 16px;
-  height: 16px;
   
 }
 
